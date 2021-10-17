@@ -1,18 +1,7 @@
-#######
-#
-# bootstrap-template
-# basic bootstrap template for Jekyll with GitHub Pages
-# https://github.com/thecdil/bootstrap-template
-#
-#######
-
-#######
-# SITE SETTINGS
-#
-title: bootstrap-template
-description: "a basic bootstrap template for Jekyll with GitHub Pages"
-year: 2020
-author: evan will 
+title: Jello App
+description: "a basic Jello App with GitHub Pages"
+year: 2021
+author: Ahmed Sharif Khan
 # add search box to navbar, true/false
 search: true
 
@@ -23,13 +12,14 @@ search: true
 #
 # use url for the domain, e.g. https://thecdil.github.io
 # on gh-pages follow the pattern: https://username.github.io
-url:
+url: https://ahmedsharifkhan.github.io
 # use baseurl to add subsection of the domain, e.g. /timelinejs-template
 # on gh-pages this is a / followed by the name of the repository
 # baseurl is your github repository's name prefixed with a /
-baseurl:
+baseurl: /jelloapp
+
 # location of code, the full url to your github repository
-source-code: https://github.com/thecdil/bootstrap-template
+source-code: https://github.com/ahmedsharifkhan/jelloapp
 
 ##########
 # GOOGLE ANALYTICS [optional!]
@@ -56,6 +46,12 @@ defaults:
     values:
       layout: page
       permalink: /:basename:output_ext
+
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
